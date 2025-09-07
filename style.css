@@ -1,22 +1,19 @@
-/* ===== GENERALES ===== */
-body {
+//Generales
+body{
   background-color: #001D20;
 }
 
-
-h1 {
+h1{
   text-align: center;
 }
 
-
-footer {
+footer{
   position: absolute;
   top: 95%;
   left: 42%;
 }
 
-
-a {
+a{
   text-decoration: none;
   background-color: #013338;
   color: white;
@@ -30,21 +27,19 @@ a {
   flex-direction: column;
 }
 
-
-#rule {
+#rule{
   position: absolute;
   height: 400px;
   left: 7%;
 }
 
-
-#links {
+#links{
   position: absolute;
   top: 20%;
 }
 
 
-/* ===== LOGIN / REGISTRO ===== */
+//Login-Registro
 .formulario {
   background-color: #013338;
   width: 400px;
@@ -56,20 +51,17 @@ a {
   font-family: Arial, sans-serif;
 }
 
-
-.formulario h1 {
+.formulario h1{
   text-align: center;
   margin-bottom: 2rem;
 }
 
-
-.input-box {
+.input-box{
   position: relative;
   margin-bottom: 1.8rem;
 }
 
-
-.input-box input {
+.input-box input{
   width: 100%;
   padding: 10px;
   background: none;
@@ -79,14 +71,12 @@ a {
   font-size: 1rem;
 }
 
-
-.input-box input:focus {
+.input-box input:focus{
   outline: none;
   border-bottom-color: #00FFC6;
 }
 
-
-.input-box label {
+.input-box label{
   position: absolute;
   top: 10px;
   left: 0;
@@ -97,14 +87,13 @@ a {
 
 
 .input-box input:focus + label,
-.input-box input:valid + label {
+.input-box input:valid + label{
   top: -15px;
   font-size: 0.8rem;
   color: #00FFC6;
 }
 
-
-input[type="submit"] {
+input[type="submit"]{
   width: 100%;
   padding: 12px;
   background-color: #00FFC6;
@@ -116,21 +105,18 @@ input[type="submit"] {
   transition: 0.3s;
 }
 
-
-input[type="submit"]:hover {
+input[type="submit"]:hover{
   background-color: #00e6b0;
 }
 
-
 .recordar,
-.volver {
+.volver{
   text-align: center;
   margin-top: 1rem;
 }
 
-
 .recordar a,
-.volver a {
+.volver a{
   display: inline-block;
   background-color: #013338;
   color: #00FFC6;
@@ -142,23 +128,20 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-
 .recordar a:hover,
-.volver a:hover {
+.volver a:hover{
   background-color: #00FFC6;
   color: #001D20;
 }
 
-
-label[for="birthdate"] {
+label[for="birthdate"]{
   display: block;
   margin: 1.2rem 0 .4rem;
   color: #fff;
   font-weight: 600;
 }
 
-
-#birthdate {
+#birthdate{
   -webkit-appearance: none;
   appearance: none;
   background: none;
@@ -173,12 +156,10 @@ label[for="birthdate"] {
   margin-bottom: 1.2rem;
 }
 
-
 #birthdate:focus {
   outline: none;
   border-bottom-color: #00FFC6;
 }
-
 
 #birthdate::-webkit-datetime-edit,
 #birthdate::-webkit-datetime-edit-text,
@@ -188,14 +169,13 @@ label[for="birthdate"] {
   color: #fff;
 }
 
-
 #birthdate::-webkit-clear-button,
 #birthdate::-webkit-inner-spin-button {
   display: none;
 }
 
 
-/* ===== PERFIL ===== */
+//Perfil
 .perfil {
   width: min(900px, 92%);
   margin: 0 auto;            
@@ -289,7 +269,7 @@ label[for="birthdate"] {
 }
 
 
-/* ===== RULETA ===== */
+//Ruleta
 .ruleta {
   display: block;
   width: 1000px;          
@@ -411,8 +391,7 @@ td.verde {
 }
 
 
-/* ===== RETIRO / DEPOSITO ===== */
-
+//Simulador movimientos
 
 .contenedor {
   width: 90%;
@@ -505,7 +484,7 @@ td.verde {
 }
 
 
-/* ===== INFO / INFO RULETA ===== */
+//Info-info ruleta
 body {
       background-color: #001D20;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -619,9 +598,3 @@ details > p {
   text-decoration: none;
   margin: 1.25rem auto 0;
 }
-
-
-/* ===== INICIO ===== */
-
-
-/* ===== RECUPERAR CONTRASEÑA ===== */
